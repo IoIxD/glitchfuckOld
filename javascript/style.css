@@ -1,0 +1,13 @@
+* {margin: 0; font-family: Verdana;
+image-rendering: optimizeSpeed!important;
+    image-rendering: crisp-edges!important;
+    image-rendering: -moz-crisp-edges!important;
+    image-rendering: -o-crisp-edges!important;
+    image-rendering: -webkit-optimize-contrast!important;
+    image-rendering: pixelated!important;
+    image-rendering: optimize-contrast!important;
+    -ms-interpolation-mode: nearest-neighbor!important;
+    font-smoothing: none; -webkit-font-smoothing : none;
+}
+.offscreen {display: none!important;}
+canvas#layer3 {position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; display: block; opacity: 0.5; z-index: 1;}
