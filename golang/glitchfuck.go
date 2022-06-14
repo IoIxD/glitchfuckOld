@@ -1,4 +1,4 @@
-package glitchfuck
+package main
 
 import (
 	"log"
